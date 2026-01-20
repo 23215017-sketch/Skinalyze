@@ -53,7 +53,7 @@ os.makedirs(app.config['UPLOAD_FOLDER'], exist_ok=True)
 
 # Load model dan class indices saat app start
 print("🔄 Loading model...")
-MODEL_PATH = "skin_disease_mobilenetv2_stage1.h5"
+MODEL_PATH = "model/skin_disease_mobilenetv2_stage1.h5"
 CLASS_INDICES_PATH = "class_indices.json"
 
 # Cek apakah file model ada
