@@ -14,7 +14,7 @@
 
 ## 🎯 Tentang Proyek
 
-Sistem deteksi dini penyakit kulit menggunakan **Deep Learning** dan **Computer Vision**. Aplikasi web dapat mengklasifikasi 9 jenis penyakit kulit dari gambar dengan akurasi 87%.
+Sistem deteksi dini penyakit kulit menggunakan **Deep Learning** . Aplikasi web dapat mengklasifikasi 9 jenis penyakit kulit dari gambar dengan akurasi 94%.
 
 **Tujuan:**
 - Membantu deteksi awal penyakit kulit
@@ -46,7 +46,7 @@ Sistem deteksi dini penyakit kulit menggunakan **Deep Learning** dan **Computer 
 **Model Deep Learning:**
 - **Arsitektur**: Transfer Learning dengan MobileNetV2
 - **Framework**: TensorFlow/Keras 2.15.0
-- **Akurasi Validasi**: 87.09%
+- **Akurasi Validasi**: 94.94%
 - **Ukuran Model**: ~9 MB
 
 **Web Application:**
@@ -104,9 +104,8 @@ http://localhost:5000
 ## 📈 Hasil Model
 
 **Performance Metrics:**
-- **Overall Accuracy**: 87.09%
-- **Validation Loss**: 0.3680
-- **Training**: 12 epochs dengan early stopping
+- **Overall Accuracy**: 94.94%
+- **Validation Loss**: 0.1568
 
 **Kelas Terbaik:**
 - Atopic Dermatitis: 97% precision, 99% recall
